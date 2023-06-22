@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Banner from './components/Banner';
-import Card from './components/Card'
-export default function App() {
+import { StyleSheet, Text, View,Image } from 'react-native';
+
+export default function Banner() {
   return (
     <View style={styles.container}>
-      <Banner/>
-      <Card/>
+        <Image source={require('central_perk_logo.jpeg')} />
       <StatusBar style="auto" />
     </View>
   );
