@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,Image } from 'react-native';
-
 export default function Banner() {
   return (
-    <View style={styles.container}>
-        <Image source={require('central_perk_logo.jpeg')} />
-      <StatusBar style="auto" />
+    <View>
+      <Text></Text>
+        <Image
+         style={styles.logo}
+         source={require('../central_perk_logo.jpeg')}
+         />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  textoo: {
+    fontSize:"20px"
+  },
+  logo: {
+    width: 400,
+    height: 150
   },
 });

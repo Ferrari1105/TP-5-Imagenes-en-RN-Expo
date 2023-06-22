@@ -4,18 +4,18 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements'
 
 export default function Cards() {
   return (
-    <View style={styles.container}>
-      <Text>Card</Text>
+    <View >
+      <Text style={styles.texto}>Try some of our most popular flavors!</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  texto:{
+    color:"white",
+    marginTop: "30px"
+    
+    //Font-size o algo asi
+  }
 });
