@@ -6,7 +6,6 @@ import { ImageBackground } from 'react-native-web';
 export default function Cards() {
   return (
     <View style={styles.view}>
-      <Card title="CARD WITH DIVIDER" style={styles.card}>
           <Image
             style={styles.image}
             source={require('../coffee1.jpeg')}
@@ -14,7 +13,6 @@ export default function Cards() {
           <div style={styles.division}>
           <Text style={styles.texto}>Try some of our most popular flavors!</Text>
           </div>
-        </Card>
       </View>
   );
 }
